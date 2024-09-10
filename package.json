@@ -6,11 +6,11 @@
   "type": "module",
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject":"react-scripts eject",
-    "build":"react-scripts build",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build",
     "dev": "vite",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -32,6 +32,7 @@
     "react-router-dom": "^6.22.3",
     "react-table": "^7.8.0",
     "recharts": "^2.12.7",
+    "scripts": "^0.1.0",
     "use-local-storage": "^3.0.0",
     "use-session-storage-state": "^19.0.0"
   },
